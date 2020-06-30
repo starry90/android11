@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="showStorageUpdate"
+        android:text="文件存储机制更新" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="showLocationUpdate"
+        android:text="位置信息更新" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="showDataAccessAuditing"
+        android:text="数据访问审核" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="showForegroundService"
+        android:text="前台服务类型" />
+
+</LinearLayout>

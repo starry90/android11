@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StorageActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="requestStoragePermission"
+        android:text="请求所有文件访问权限" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="requestApplicationDetailsSettings"
+        android:text="打开应用的权限设置界面" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="mediaStoreWrite"
+        android:text="MediaStore方式写入文件到公共目录中的文件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="mediaStoreRead"
+        android:text="MediaStore方式读取公共目录中的文件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="appSpecificWrite"
+        android:text="App-specific 目录写文件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="appSpecificRead"
+        android:text="App-specific 目录读取文件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="openSpecificFile"
+        android:text="打开App-specific 目录文件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="appPrivateWrite"
+        android:text="App私有目录写文件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="appPrivateRead"
+        android:text="App私有目录读取文件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="externalStorageWrite"
+        android:text="外部存储目录写文件" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:onClick="externalStorageRead"
+        android:text="外部存储目录读取文件" />
+
+</LinearLayout>
